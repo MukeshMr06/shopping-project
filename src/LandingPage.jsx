@@ -6,7 +6,7 @@ import logo2 from './assets/logo2.svg'
 import logo3 from './assets/logo3.svg'
 import logo4 from './assets/logo4.svg'
 import logo5 from './assets/logo5.svg'
-import Imagesection from './Imagesection'
+import Newarrival from './Newarrival'
 import Selling from './Selling'
 import Dressstyle from './Dressstyle'
 import Customer from './Customer'
@@ -25,7 +25,8 @@ const LandingPage = () => {
             <h2 className='font-extrabold uppercase mt-18 md:text-6xl '>Find Clothes <br /> That Matches <br /> Your Style</h2>
             <p className='font-normal text-base md:w-[500px]'>Browse through our diverse range of meticulously crafted garments,
               designed to bring out your individuality and cater to your sense of style.</p>
-            <button className='bg-black font-medium text-base text-white rounded-full p-2 px-8 py-2'>Shop Now</button>
+            <button className='bg-black font-medium text-base text-white rounded-full cursor-pointer px-8 py-2'>Shop Now</button>
+          
             <div className='grid grid-cols-2 mx-1 md:grid-cols-3 md:w-[600px]'>
               <div className=''>
                 <p className='font-bold  text-4xl'>200+</p>
@@ -111,7 +112,7 @@ const LandingPage = () => {
 
       </div>
 
-      <Imagesection />
+      <Newarrival />
       <Selling />
       <Dressstyle />
       <Customer />

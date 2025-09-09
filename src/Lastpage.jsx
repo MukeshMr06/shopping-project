@@ -6,10 +6,14 @@ import Del from './assets/lastpageimg/delete.svg'
 import clip from './assets/lastpageimg/clip.svg'
 import arrow from './assets/lastpageimg/arrow.svg'
 import arr from './assets/secondpageimg/arr.svg'
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Lastpage = () => {
+
+  const navigate = useNavigate()
+
   return (
     <div className="mx-2 md:mx-20" >
 
@@ -36,7 +40,7 @@ const Lastpage = () => {
                 <div className="flex items-start gap-4">
                   <img src={img1} alt="" className="w-32 h-auto" />
                   <div>
-                    <p className="font-bold">Gradient Graphic T-shirt</p>
+                    <p className="font-bold text-xl">Gradient Graphic T-shirt</p>
                     <p>Size: <span className="text-[#00000099]">Large</span></p>
                     <p>Color: <span className="text-[#00000099]">White</span></p>
                     <p className="font-bold text-2xl">$145</p>
@@ -54,7 +58,7 @@ const Lastpage = () => {
                 </div>
               </div>
 
-              <div className='border-b border-bg-[#0000001A] w-full mt-2'></div>
+              <div className='border-b border-[#0000001A] w-full mt-2'></div>
 
 
               <div className="flex items-start justify-between gap-4">
@@ -63,7 +67,7 @@ const Lastpage = () => {
                 <div className="flex items-start gap-4">
                   <img src={img2} alt="" className="w-32 h-auto" />
                   <div>
-                    <p className="font-bold">Checked Shirt</p>
+                    <p className="font-bold text-xl">Checked Shirt</p>
                     <p>Size: <span className="text-[#00000099]">Medium</span></p>
                     <p>Color: <span className="text-[#00000099]">Red</span></p>
                     <p className="font-bold text-2xl">$180</p>
@@ -90,7 +94,7 @@ const Lastpage = () => {
                 <div className="flex items-start gap-4">
                   <img src={img3} alt="" className="w-32 h-auto" />
                   <div>
-                    <p className="font-bold">Skinny Fit Jeans</p>
+                    <p className="font-bold text-xl">Skinny Fit Jeans</p>
                     <p>Size: <span className="text-[#00000099]">Large</span></p>
                     <p>Color: <span className="text-[#00000099]">Blue</span></p>
                     <p className="font-bold text-2xl">$240</p>
@@ -122,13 +126,13 @@ const Lastpage = () => {
               </div>
               <div className='flex justify-between'>
                 <h3 className='text-xl font-normal text-[#00000099]'>Discount (-20%)</h3>
-                <p className='font-bold text-xl text-[#FF3333]'>$113</p>
+                <p className='font-bold text-xl text-[#FF3333]'>-$113</p>
               </div>
               <div className='flex justify-between'>
                 <h3 className='text-xl font-normal text-[#00000099]'>Delivery Fee</h3>
                 <p className='font-bold text-xl'>$15</p>
               </div>
-              <div className='border-b border-bg-[#0000001A] w-full mt-2'></div>
+              <div className='border-b border-[#0000001A] w-full mt-2'></div>
             </div>
 
             <div className='flex flex-col gap-2 mt-5'>
@@ -138,14 +142,14 @@ const Lastpage = () => {
               </div>
 
               <div className='flex mt-4 gap-2'>
-                <div className='flex gap-1 items-center bg-[#F0F0F0] p-2 rounded-2xl w-3/4'>
+                <div className='flex gap-1 items-center bg-[#F0F0F0] p-2 rounded-full w-3/4'>
                   <img src={clip} alt="" />
                   <input type="text" placeholder='Add promo code' />
                 </div>
-                <h1 className='bg-black text-white p-2 rounded-2xl text-center w-1/4'>Apply</h1>
+                <h1 className='bg-black text-white p-2 rounded-full text-center w-1/4 cursor-pointer'>Apply</h1>
               </div>
 
-              <div className='flex  items-center bg-black text-white p-4 mt-4 rounded-2xl justify-center gap-3'>
+              <div className='flex  items-center bg-black text-white p-4 mt-4 rounded-full justify-center gap-3' onClick={()=> navigate('/')} >
                 <h4>Go to Checkout</h4>
                 <img className='' src={arrow} alt="" />
               </div>

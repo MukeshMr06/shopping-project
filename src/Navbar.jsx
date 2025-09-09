@@ -48,7 +48,7 @@ const Navbar = () => {
                         <button><RiCloseLine onClick={() => setOpen(false)} className='cursor-pointer absolute top-6 right-4' /></button>
                         <a href="/" className='hover:text-gray-300' onClick={() => setOpen(false)}>Home</a>
                         <a href="productpage" className='hover:text-gray-300' onClick={() => setOpen(false)}>Product</a>
-                        <a href="catrgorypage" className='hover:text-gray-300' onClick={() => setOpen(false)}>Catrgory</a>
+                        <a href="categorypage" className='hover:text-gray-300' onClick={() => setOpen(false)}>Catrgory</a>
                         <a href="cartpage" className='hover:text-gray-300' onClick={() => setOpen(false)}>Cart</a>
                     </div>
 
@@ -60,7 +60,7 @@ const Navbar = () => {
                         <img className='rotate-90' src={arr} alt="" />
                     </div>
                     <a href="productpage">On Sale</a>
-                    <a href='catrgorypage'>New Arrivals</a>
+                    <a href='categorypage'>New Arrivals</a>
                     <a href="cartpage">Brands</a>
                 </div>
 

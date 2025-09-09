@@ -15,7 +15,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<LandingPage />}></Route>
           <Route path='/productpage' element={<Secondpage />}></Route>
-          <Route path='/catrgorypage' element={<Thirdpage />}></Route>
+          <Route path='/categorypage' element={<Thirdpage />}></Route>
           <Route path='/cartpage' element={<Lastpage />}></Route>
         </Routes>
          <Footer />

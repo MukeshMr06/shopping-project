@@ -41,43 +41,44 @@ const Footer = () => {
       </div>
 
       {/* Footer content */}
-      <div className='pt-40 mx-2 sm:mx-3 md:mx-20 gap-4'>
-        <div className='flex flex-col lg:flex-row gap-8 lg:gap-10'>
-          <div className='flex flex-col w-full lg:w-[400px] gap-3 items-center lg:items-start text-center lg:text-left'>
+      <div className='pt-40 md:gap-4'>
+        <div className='flex flex-col mx-4 lg:flex-row lg:mx-20 gap-8 lg:gap-10 '>
+          <div className='flex flex-col w-full lg:w-[400px] gap-3 '>
             <img className='w-40 sm:w-60' src={shop} alt="" />
             <p className='font-normal text-sm'>
               We have clothes that suits your style and which you're proud to wear. From women to men.
             </p>
-            <div className='flex gap-2 justify-center lg:justify-start'>
+            <div className='flex gap-2 '>
               <img className='w-6 h-6' src={twitter} alt="" />
               <img className='w-6 h-6' src={facebook} alt="" />
               <img className='w-6 h-6' src={chatgpt} alt="" />
               <img className='w-6 h-6' src={github} alt="" />
             </div>
           </div>
-          <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 w-full gap-6 sm:gap-10 mt-6 lg:mt-2'>
-            <div className='flex flex-col gap-2 items-center sm:items-start'>
+
+          <div className='grid grid-cols-2 md:grid-cols-4 w-full gap-10 sm:gap-10 mt-6 lg:mt-2'>
+            <div className='flex flex-col gap-2 '>
               <h2 className='font-medium text-base'>COMPANY</h2>
               <p className='text-sm'>About</p>
               <p className='text-sm'>Features</p>
               <p className='text-sm'>Works</p>
               <p className='text-sm'>Career</p>
             </div>
-            <div className='flex flex-col gap-2 items-center sm:items-start'>
+            <div className='flex flex-col gap-2  '>
               <h2 className='font-medium text-base'>HELP</h2>
               <p className='text-sm'>Customer Support</p>
               <p className='text-sm'>Delivery Details</p>
               <p className='text-sm'>Terms & Conditions</p>
               <p className='text-sm'>Privacy Policy</p>
             </div>
-            <div className='flex flex-col gap-2 items-center sm:items-start'>
+            <div className='flex flex-col gap-2 '>
               <h2 className='font-medium text-base'>FAQ</h2>
               <p className='text-sm'>Account</p>
               <p className='text-sm'>Manage Deliveries</p>
               <p className='text-sm'>Orders</p>
               <p className='text-sm'>Payments</p>
             </div>
-            <div className='flex flex-col gap-2 items-center sm:items-start'>
+            <div className='flex flex-col gap-2  '>
               <h2 className='font-medium text-base'>RESOURCES</h2>
               <p className='text-sm'>Free eBooks</p>
               <p className='text-sm'>Development Tutorial</p>
@@ -86,15 +87,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='border-b border-[#0000001A] mx-2 sm:mx-10 my-5'></div>
-        <div className='mx-2 sm:mx-10 flex flex-col gap-2 justify-between items-center'>
+        <div className='border-b border-[#0000001A] sm:mx-20 my-3'></div>
+        <div className='mx-2  flex md:flex-row sm:mx-20 flex-col gap-2 justify-between items-center'>
           <h3 className='font-normal text-xs sm:text-sm mt-3 text-center'>Shop.co © 2000-2023, All Rights Reserved</h3>
           <div className='flex gap-2 sm:gap-3 flex-wrap justify-center'>
-            <img className='w-10 h-6' src={visa} alt="" />
-            <img className='w-10 h-6' src={card} alt="" />
-            <img className='w-10 h-6' src={paypal} alt="" />
-            <img className='w-10 h-6' src={applepay} alt="" />
-            <img className='w-10 h-6' src={gpay} alt="" />
+            <img className='w-14 h-14' src={visa} alt="" />
+            <img className='w-14 h-14' src={gpay} alt="" />
+            <img className='w-14 h-14' src={card} alt="" />
+            <img className='w-14 h-14' src={paypal} alt="" />
+            <img className='w-14 h-14' src={applepay} alt="" />
           </div>
         </div>
       </div>

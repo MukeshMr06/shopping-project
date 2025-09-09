@@ -10,7 +10,7 @@ import arr from './assets/secondpageimg/arr.svg'
 import filter from './assets/secondpageimg/filter.svg'
 import { BsThreeDots } from "react-icons/bs";
 import Tick from './assets/tick.svg'
-import star from './assets/star.svg'
+import star from './assets/secondpageimg/star.svg'
 import half from './assets/halfstar.svg'
 import { useNavigate } from 'react-router-dom'
 
@@ -66,7 +66,7 @@ const Secondpage = () => {
           <div className='flex items-center gap-2 md:top-24'>
             <p className='font-bold text-3xl'>$260</p>
             <p className='text-gray-400 text-3xl line-through'>$300</p>
-            <p className='bg-red-200 text-red-400 rounded-2xl px-2 py-1 w-fit'>-40%</p>
+            <p className='bg-[#FF33331A] text-red-400 rounded-2xl px-2 py-1 w-fit'>-40%</p>
           </div>
 
           <p className='font-normal text-gray-400'>This graphic t-shirt which is perfect for any occasion.
@@ -86,10 +86,10 @@ const Secondpage = () => {
           <p className='text-gray-400'>Choose Size</p>
 
           <div className='flex gap-2 items-center'>
-            <p className='bg-[#F0F0F0] px-4 py-1 rounded-full'>Small</p>
-            <p className='bg-[#F0F0F0] px-4 py-1 rounded-full'>Medium</p>
-            <p className='bg-black text-white px-4 py-1 rounded-full'> Large</p>
-            <p className='bg-[#F0F0F0] px-4 py-1 rounded-full'>X-Large</p>
+            <p className='bg-[#F0F0F0] px-4 py-2 rounded-full'>Small</p>
+            <p className='bg-[#F0F0F0] px-4 py-2 rounded-full'>Medium</p>
+            <p className='bg-black text-white px-4 py-2 rounded-full'> Large</p>
+            <p className='bg-[#F0F0F0] px-4 py-2 rounded-full'>X-Large</p>
           </div>
 
           <div className='border-b border-[#0000001A] mt-2'></div>
@@ -321,9 +321,9 @@ const Secondpage = () => {
         <div className='flex flex-col gap-7 mt-10'>
           <h3 className='font-bold text-3xl md:text-5xl flex justify-center'>You might also like</h3>
 
-          <div className='flex gap-8 mx-4 mt-5 overflow-x-auto md:grid md:grid-cols-4 md:mx-16 md:overflow-x-visible scrollbar-hide' style={{ WebkitOverflowScrolling: 'touch' }}>
+          <div className='flex gap-8 mx-4 mt-5 overflow-x-auto md:grid md:grid-cols-4 md:mx-16 md:overflow-x-visible scrollbar-hide' >
             <div className='flex flex-col gap-2 min-w-[250px] md:min-w-0'>
-              <img className='w-full rounded-xl' src={img4} alt='' />
+              <img className='w-full h-76 rounded-xl' src={img4} alt='' />
               <h4 className='text-xl font-bold'>Polo with Contrast Trims</h4>
               <div className='flex gap-1.5 items-center'>
                 <img src={star} alt='' />
@@ -334,13 +334,13 @@ const Secondpage = () => {
               </div>
               <div className='gap-2 flex items-center'>
                 <p className='font-bold text-2xl'>$212</p>
-                <p className='text-2xl text-gray-300 line-through'>$242</p>
-                <p className='bg-red-200 text-red-400 rounded-2xl px-2 py-1'>-20%</p>
+                <p className='text-2xl text-[#00000066] line-through'>$242</p>
+                <p className='bg-[#FF33331A] text-red-400 rounded-2xl px-2 py-1'>-20%</p>
               </div>
             </div>
             <div className='flex flex-col gap-2 min-w-[250px] md:min-w-0'>
-              <img className='w-full rounded-xl' src={img5} alt='' />
-              <h4 className='text-xl font-bold'>Polo with Contrast Trims</h4>
+              <img className='w-full h-76 rounded-xl' src={img5} alt='' />
+              <h4 className='text-xl font-bold'>Gradient Graphic T-shirt</h4>
               <div className='flex gap-1.5 items-center'>
                 <img src={star} alt='' />
                 <img src={star} alt='' />
@@ -351,8 +351,8 @@ const Secondpage = () => {
               <p className='font-bold text-2xl'>$212</p>
             </div>
             <div className='flex flex-col gap-2 min-w-[250px] md:min-w-0'>
-              <img className='w-full rounded-xl' src={img6} alt='' />
-              <h4 className='text-xl font-bold'>Polo with Contrast Trims</h4>
+              <img className='w-full h-76 rounded-xl' src={img6} alt='' />
+              <h4 className='text-xl font-bold'>Polo with Tipping Details</h4>
               <div className='flex gap-1.5 items-center'>
                 <img src={star} alt='' />
                 <img src={star} alt='' />
@@ -364,8 +364,10 @@ const Secondpage = () => {
               <p className='font-bold text-2xl'>$212</p>
             </div>
             <div className='flex flex-col gap-2 min-w-[250px] md:min-w-0'>
-              <img className='w-full rounded-xl' src={img7} alt='' />
-              <h4 className='text-xl font-bold'>Polo with Contrast Trims</h4>
+              <img className='w-full h-76 rounded-xl' src={img7} alt='' />
+            
+              <h4 className='text-xl font-bold'>Black Striped T-shirt</h4>
+             
               <div className='flex gap-1.5 items-center'>
                 <img src={star} alt='' />
                 <img src={star} alt='' />
@@ -376,8 +378,8 @@ const Secondpage = () => {
               </div>
               <div className='gap-2 flex items-center'>
                 <p className='font-bold text-2xl'>$212</p>
-                <p className='text-2xl text-gray-400 line-through'>$242</p>
-                <p className='bg-red-200 text-red-400 rounded-2xl px-2 py-1'>-20%</p>
+                <p className='text-2xl text-[#00000066] line-through'>$242</p>
+                <p className='bg-[#FF33331A] text-red-400 rounded-2xl px-2 py-1'>-20%</p>
               </div>
             </div>
           </div>
