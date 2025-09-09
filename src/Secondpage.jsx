@@ -48,7 +48,7 @@ const Secondpage = () => {
         </div>
 
         <div className='w-full md:w-[700px] h-[400px] md:h-full'>
-          <img className='w-full h-full object-cover rounded-xl ' src={img1} alt="" />
+          <img className='w-full h-full object-cover rounded-xl ' src={img1} alt="" onClick={() => navigate('/categorypage')} />
         </div>
 
 
