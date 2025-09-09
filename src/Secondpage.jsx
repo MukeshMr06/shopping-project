@@ -42,9 +42,9 @@ const Secondpage = () => {
       <div className='flex flex-col md:flex-row gap-3 items-stretch h-auto md:h-[600px]'>
 
         <div className='flex flex-row md:flex-col gap-2 w-full md:w-52 h-auto md:h-full'>
-          <img className='border border-black w-1/3 md:w-full h-32 md:h-1/3 rounded-xl object-cover' src={img1} alt="" />
-          <img className='w-1/3 md:w-full h-32 md:h-1/3 rounded-xl object-cover' src={img2} alt="" />
-          <img className='w-1/3 md:w-full h-32 md:h-1/3 rounded-xl object-cover' src={img3} alt="" />
+          <img className='border border-black w-1/3 md:w-full h-32 md:h-1/3 rounded-xl object-cover' src={img1} alt="" onClick={() => navigate('/categorypage')} />
+          <img className='w-1/3 md:w-full h-32 md:h-1/3 rounded-xl object-cover' src={img2} alt="" onClick={() => navigate('/categorypage')} />
+          <img className='w-1/3 md:w-full h-32 md:h-1/3 rounded-xl object-cover' src={img3} alt="" onClick={() => navigate('/categorypage')} />
         </div>
 
         <div className='w-full md:w-[700px] h-[400px] md:h-full'>
